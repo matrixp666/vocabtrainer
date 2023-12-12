@@ -1,0 +1,59 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>e0255c58-04a2-444e-94d1-95f3450372e1</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>src/main.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>VokabelTrainer</Name>
+    <RootNamespace>VokabelTrainer</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <InterpreterId>Global|VisualStudio|venv311 (Python 3.11 (64-bit))</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="src\main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vocabtrainer\gui.py" />
+    <Compile Include="src\vocabtrainer\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VokabelTrainer.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\" />
+    <Folder Include="src\vocabtrainer\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|VisualStudio|venv311 (Python 3.11 (64-bit))" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="pyproject.toml" />
+    <Content Include="src\vocabtrainer\latein.txt" />
+    <Content Include="src\vocabtrainer\english.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
