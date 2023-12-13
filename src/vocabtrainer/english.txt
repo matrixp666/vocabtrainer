@@ -1,2 +1,4 @@
 swim ; schwimmen
 doctor ; Doktor
+car ; Auto
+plane ; Flugzeug

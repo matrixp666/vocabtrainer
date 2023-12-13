@@ -43,7 +43,10 @@
     <InterpreterReference Include="Global|VisualStudio|venv311 (Python 3.11 (64-bit))" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="LICENSE" />
     <Content Include="pyproject.toml" />
+    <Content Include="README.md" />
     <Content Include="src\vocabtrainer\latein.txt" />
     <Content Include="src\vocabtrainer\english.txt" />
   </ItemGroup>
