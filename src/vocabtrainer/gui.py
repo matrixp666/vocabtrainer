@@ -19,7 +19,7 @@ class gui(object):
             [sg.Radio('English', 'lang', key = '-ENG-', enable_events = True, default = True), sg.Radio('Latein', 'lang', key = '-LAT-', enable_events = True, default = False)],
             [sg.Text('Uebersetze folgendes Wort nach Deutsch: ', key = '-LANG_TEXT-'), sg.Text(text = self.shown_word, size = (15,1), key = '-OUTPUT-')],
             [sg.Input(key = '-IN-')],
-            [sg.Button('Check', enable_events = True), sg.Button('Exit')],
+            [sg.Button('Check', enable_events = True, key = '-CHECK-'), sg.Button('Exit')],
             [sg.HorizontalSeparator()],
             [sg.Text('Anzahl richtiger und falscher Antworten:')],
             [sg.Text('Richtige:'), sg.Text(key='-CORRECT-')],
@@ -52,7 +52,7 @@ class gui(object):
             print(event, values)
             if event == sg.WIN_CLOSED or event == 'Exit':
                 break
-            if event == 'Check':
+            if event == '-CHECK-':
                 self.cb_check(values)
             if event in ['-ENG-', '-LAT-']:
                 if values['-ENG-'] == True:
@@ -66,7 +66,7 @@ class gui(object):
         self.window.close()
 
     def cb_check(self, values):
-        if values['-IN-'] == self.translation:
+        if values['-IN-'] == self.translation or values['-IN-'].lower() in self.translation.lower():
             self.cnter_correct += 1
             self.window['-CORRECT-'].update(self.cnter_correct)
             self.window['-IN-'].update('')
@@ -80,16 +80,14 @@ class gui(object):
         self.window['-OUTPUT-'].update(self.shown_word)
 
     def cb_eng(self, values):
-        if values['-IN-'] == self.translation:
-            print('richtig')
-        else:
-            print('falsch')
+        self.shown_word, self.translation = random.choice(list(self.vocab_eng.items()))
+        self.window['-OUTPUT-'].update(self.shown_word)
+        self.window['-IN-'].update('')
 
     def cb_lat(self, values):
-        if values['-IN-'] == self.translation:
-            print('richtig')
-        else:
-            print('falsch')
+        self.shown_word, self.translation = random.choice(list(self.vocab_lat.items()))
+        self.window['-OUTPUT-'].update(self.shown_word)
+        self.window['-IN-'].update('')
 
 if __name__ == '__main__':
     gui = gui()
