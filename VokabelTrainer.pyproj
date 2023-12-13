@@ -33,7 +33,6 @@
     <Compile Include="src\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="VokabelTrainer.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="src\" />
