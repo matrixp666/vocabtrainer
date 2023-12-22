@@ -28,7 +28,7 @@ class gui(object):
                   ]
 
     def read_translation_files(self):
-        with open(os.path.join(os.getcwd(), 'src/vocabtrainer/', 'english.txt'), 'r') as fh:
+        with open(os.path.join(os.getcwd(), 'src', 'vocabtrainer', 'english.txt'), 'r') as fh:
             content = fh.readlines()
         for line in content:
             if line.startswith('#'):
@@ -38,7 +38,7 @@ class gui(object):
             ger = ger.strip(' \n\t')
             if eng not in self.vocab_eng.keys():
                 self.vocab_eng[eng] = ger
-        with open(os.path.join(os.getcwd(), 'src/vocabtrainer/', 'latein.txt'), 'r') as fh:
+        with open(os.path.join(os.getcwd(), 'src', 'vocabtrainer', 'latein.txt'), 'r') as fh:
             content = fh.readlines()
         for line in content:
             lat, ger = line.split(';')
