@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e0255c58-04a2-444e-94d1-95f3450372e1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>src/main.py</StartupFile>
+    <StartupFile>src\vocabtrainer\gui.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

@@ -1,4 +1,209 @@
-swim ; schwimmen
+(to) swim ; schwimmen
 doctor ; Doktor
 car ; Auto
 plane ; Flugzeug
+at home ; zu Hause
+family ; Familie
+(to) live ; leben
+flat ; Wohnung
+in the street ; in der Straße
+house ; Haus
+door ; Tür
+tv ; Fernseher
+chair ; Stuhl
+table ; Tisch
+shower ; Dusche
+bath ; Badewanne
+toilet ; Toilette
+bed ; Bett
+clock ; Uhr
+wardrobe ; Kleiderschrank
+cupboard ; Küchenschrank
+shelf ; Regal
+cooker ; Herd
+living room ; Wohnzimmer
+bedroom ; Schlafzimmer
+kitchen ; Küche
+bathroom ; Badezimmer
+good ; gut
+bisquit ; Keks
+under ; unter
+(to) help ; helfen
+(to) collect ; sammeln
+new ; neu
+small ; klein
+sister ; Schwester
+little ; klein
+brother ; Bruder
+father ; Vater
+mother ; Mutter
+cousin ; Cousin
+an ; ein
+only child ; Einzelkind
+dad ; Papa
+she is ; sie ist
+isn't ; ist nicht
+always ; immer
+easy ; einfach
+he is ; er ist
+mum ; Mama
+uncle ; Onkel
+aunt ; Tante
+granddad ; Opa
+grandma ; Oma
+familytree ; Stammbaum
+tell me about ; erzähle mir von
+quiet ; leise
+guinea pig ; Meerschweinchen
+language ; Sprache
+only ; nur
+wrong ; falsch
+thanks ; Danke
+very ; sehr
+some ; einige
+of ; von
+say hello ; grüßen
+to ; zu
+problem ; Problem
+there is ; da sind
+there ; dort
+garden ; Garten
+behind ; hinter
+Mr. ; Herr
+Mrs. ; Frau
+now ; jetzt
+everywhere ; überall
+again ; wieder
+floor ; Fußboden
+next to ; neben
+in front of ; vor
+(to) listen ; zuhören
+idea ; Idee
+loft ; Dachboden
+own ; eigene
+from...to ; von ... bis
+answer ; Antwort
+wall ; Wand
+fridge ; Kühlschrank
+address ; Adresse
+it's ; sein
+or ; oder
+more ; mehr
+fantasy ; Fantasie
+(to) draw ; zeichnen
+help ; Hilfe
+step ; Stufe
+there is ; es gibt
+there are ; da sind
+Here you can see ; Hier kannst Du sehen
+this is ; Das ist
+my favourite room is ; Mein Lieblingszimmer ist
+on the left ; links
+on the right ; rechts
+at the top ; oben
+at the bottom ; unten
+in the middle ; in der Mitte
+in the corner ; in der Ecke
+guitar ; Gitarre
+stage ; Bühne
+cable car ; Gondel
+fire place ; Kamin
+busy ; beschäftigt
+model ; Modell
+who .. for ; Für wen
+who ; wer
+(to) explore ; erkunden
+best ; bester
+bag ; Tasche
+maybe ; vielleicht
+after ; nach
+(to) visit ; besuchen
+outside ; draußen
+awful ; schrecklich
+don't worry ; keine Sorge
+sentence ; Satz
+right ; richtig
+ending ; Ende
+rule ; Regel
+planner ; Kalender
+lunch ; Mittagessen
+cafeteria ; Cafeteria
+money ; Geld
+mashine ; Maschine
+(to) pay ; bezahlen
+finger ; Finger
+(to) buy ; kaufen
+sweets ; Süßigkeiten
+shop ; Laden
+pen ; Füller
+pencil ; Stift
+pencil case ; Federmappe
+exercise book ; Übungsheft
+ruler ; Lineal
+rubber ; Radiergummi
+uniform ; Uniform
+art ; Kunstunterricht
+recording studio ; Tonstudio
+tutor ; Klassenlehrer
+classroom ; Klassenraum
+classmate ; Mitschüler
+(to) have got ; besitzen
+question ; Frage
+test ; Test
+today ; heute
+schoolbag ; Schultasche
+tutorgroup ; Klasse
+good moring ; Guten Morgen
+everyone ; jeder
+student ; Schüler
+(to) call ; nennen
+him ; ihm
+no ; kein
+i like singing and dancing ; Ich singe und tanze gerne
+(to) sing ; singen
+(to) dance ; tanzen
+project ; Projekt
+well ; tja
+something ; etwas
+wait and see ; Wart ab
+teacher ; Lehrer
+group ; Gruppe
+lots of ; jede Menge
+office ; Büro
+job ; Arbeit
+grandparents ; Großeltern
+talent show ; Talentwettbewerb
+(to) send ; senden
+food ; Essen
+carrot ; Möhre
+pudding ; Pudding
+restaurant ; Restaurant
+pocket money ; Taschengeld
+(to) use ; benutzen
+here you are ; bitte schön
+be polite ; Sei höflich
+lesson ; Schulstunde
+building ; Gebäude
+German students are lucky ; Deutsche Schüler haben Glück
+(to) stare ; starren
+rude ; unhöflich
+funny ; lustig
+(to) sit ; sitzen
+lunch break ; Mittagspause
+them ; ihnen
+(to) forget ; vergessen
+(to) do ; machen
+fun ; fröhlich
+into ; hinein
+alone ; allein
+(to) bring ; bringen
+(to) be late ; zu spät dran sein
+(to) be ; sein
+(to) wear ; anhaben
+(to) run ; rennen
+homework ; Hausaufgaben
+(to) look at ; anschauen
+when ; wenn
+already ; schon
+(to) add ; ergänzen
+chips ; Pommes frites

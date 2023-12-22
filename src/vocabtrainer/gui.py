@@ -1,6 +1,7 @@
 # coding: utf8
 import PySimpleGUI as sg
 import random
+import os
 
 class gui(object):
 
@@ -27,15 +28,17 @@ class gui(object):
                   ]
 
     def read_translation_files(self):
-        with open('english.txt', 'r') as fh:
+        with open(os.path.join(os.getcwd(), 'src/vocabtrainer/', 'english.txt'), 'r') as fh:
             content = fh.readlines()
         for line in content:
+            if line.startswith('#'):
+                continue
             eng, ger = line.split(';')
             eng = eng.strip(' \n\t')
             ger = ger.strip(' \n\t')
             if eng not in self.vocab_eng.keys():
                 self.vocab_eng[eng] = ger
-        with open('latein.txt', 'r') as fh:
+        with open(os.path.join(os.getcwd(), 'src/vocabtrainer/', 'latein.txt'), 'r') as fh:
             content = fh.readlines()
         for line in content:
             lat, ger = line.split(';')
@@ -57,19 +60,20 @@ class gui(object):
             if event in ['-ENG-', '-LAT-']:
                 if values['-ENG-'] == True:
                     self.cb_eng(values)
-                    self.window['-LANG_TEXT-'].Update('Uebersetze folgendes Wort nach Deutsch: ')
                     
                 if values['-ENG-'] == False:
                     self.cb_lat(values)
-                    self.window['-LANG_TEXT-'].Update('Uebersetze folgendes Wort nach Deutsch: ')
 
         self.window.close()
 
     def cb_check(self, values):
-        if values['-IN-'] == self.translation or values['-IN-'].lower() in self.translation.lower():
+        if values['-IN-'] == self.translation or values['-IN-'].lower() in self.translation.lower() and values['-IN-'] != '':
             self.cnter_correct += 1
             self.window['-CORRECT-'].update(self.cnter_correct)
             self.window['-IN-'].update('')
+        elif values['-IN-'] == '':
+            self.cnter_incorrect += 1
+            self.window['-INCORRECT-'].update(self.cnter_incorrect)
         else:
             self.cnter_incorrect += 1
             self.window['-INCORRECT-'].update(self.cnter_incorrect)
