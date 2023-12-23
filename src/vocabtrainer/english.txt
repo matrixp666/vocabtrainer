@@ -60,7 +60,7 @@ only ; nur
 wrong ; falsch
 thanks ; Danke
 very ; sehr
-some ; einige
+some ; einige , wenige
 of ; von
 say hello ; grüßen
 to ; zu

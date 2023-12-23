@@ -28,28 +28,47 @@ class gui(object):
                   ]
 
     def read_translation_files(self):
-        with open(os.path.join(os.getcwd(), 'src', 'vocabtrainer', 'english.txt'), 'r') as fh:
-            content = fh.readlines()
+        self.read_lang(lang='eng')
+        self.read_lang(lang='lat')
+
+    def read_lang(self, lang):
+        if lang == 'lat':
+            with open(os.path.join(os.getcwd(), 'src', 'vocabtrainer', 'latein.txt'), 'r') as fh:
+                content = fh.readlines()
+        if lang == 'eng':
+            with open(os.path.join(os.getcwd(), 'src', 'vocabtrainer', 'english.txt'), 'r') as fh:
+                content = fh.readlines()
         for line in content:
+            # just to be able to use comments
             if line.startswith('#'):
                 continue
-            eng, ger = line.split(';')
-            eng = eng.strip(' \n\t')
-            ger = ger.strip(' \n\t')
-            if eng not in self.vocab_eng.keys():
-                self.vocab_eng[eng] = ger
-        with open(os.path.join(os.getcwd(), 'src', 'vocabtrainer', 'latein.txt'), 'r') as fh:
-            content = fh.readlines()
-        for line in content:
-            lat, ger = line.split(';')
-            lat = lat.strip(' \n\t')
-            ger = ger.strip(' \n\t')
-            if lat not in self.vocab_lat.keys():
-                self.vocab_lat[lat] = ger
+            if ';' in line:
+                word, ger = line.split(';')
+                word = word.strip(' \n\t')
+                ger = ger.strip(' \n\t')
+                if ',' in ger:
+                    ger_list = ger.split(',')
+                    new_list = []
+                    for ele in ger_list:
+                        el = ele.strip(' \n\t').lower()
+                        new_list.append(el)
+                    if lang == 'lat':
+                        if new_list not in self.vocab_lat.values():
+                            self.vocab_lat[word] = new_list
+                    if lang == 'eng':
+                        if new_list not in self.vocab_eng.values():
+                            self.vocab_eng[word] = new_list
+                else:
+                    if lang == 'lat':
+                        if word not in self.vocab_lat.keys():
+                            self.vocab_lat[word] = [ger]
+                    if lang == 'eng':
+                        if word not in self.vocab_eng.keys():
+                            self.vocab_eng[word] = [ger]
 
     def start_up(self):
-        self.window = sg.Window('Vokabeltrainer', self.layout)
-
+        self.window = sg.Window('Vokabeltrainer', self.layout, finalize = True)
+        self.window['-IN-'].bind("<Return>", "_Enter")
         while True:  # Event Loop
             event, values = self.window.read()
             print(event, values)
@@ -57,17 +76,17 @@ class gui(object):
                 break
             if event == '-CHECK-':
                 self.cb_check(values)
+            if event == '-IN-' + '_Enter':
+                self.cb_check(values)
             if event in ['-ENG-', '-LAT-']:
                 if values['-ENG-'] == True:
-                    self.cb_eng(values)
-                    
+                    self.cb_eng()
                 if values['-ENG-'] == False:
-                    self.cb_lat(values)
-
+                    self.cb_lat()
         self.window.close()
 
     def cb_check(self, values):
-        if values['-IN-'] == self.translation or values['-IN-'].lower() in self.translation.lower() and values['-IN-'] != '':
+        if values['-IN-'] in self.translation and values['-IN-'] != '':
             self.cnter_correct += 1
             self.window['-CORRECT-'].update(self.cnter_correct)
             self.window['-IN-'].update('')
@@ -83,12 +102,12 @@ class gui(object):
             self.shown_word, self.translation = random.choice(list(self.vocab_lat.items()))
         self.window['-OUTPUT-'].update(self.shown_word)
 
-    def cb_eng(self, values):
+    def cb_eng(self):
         self.shown_word, self.translation = random.choice(list(self.vocab_eng.items()))
         self.window['-OUTPUT-'].update(self.shown_word)
         self.window['-IN-'].update('')
 
-    def cb_lat(self, values):
+    def cb_lat(self):
         self.shown_word, self.translation = random.choice(list(self.vocab_lat.items()))
         self.window['-OUTPUT-'].update(self.shown_word)
         self.window['-IN-'].update('')
