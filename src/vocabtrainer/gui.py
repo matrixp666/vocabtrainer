@@ -46,7 +46,7 @@ class gui(object):
                 continue
             if ';' in line:
                 word, ger = line.split(';')
-                word = word.strip(' \n\t')
+                word = word.strip(' \n\t').lower()
                 ger = ger.strip(' \n\t')
                 if ',' in ger:
                     ger_list = ger.split(',')
@@ -88,7 +88,8 @@ class gui(object):
         self.window.close()
 
     def cb_check(self, values):
-        if values['-IN-'] in self.translation and values['-IN-'] != '':
+        input_string = values['-IN-'].lower()
+        if input_string in self.translation and values['-IN-'] != '':
             self.cnter_correct += 1
             self.window['-CORRECT-'].update(self.cnter_correct)
             self.window['-IN-'].update('')

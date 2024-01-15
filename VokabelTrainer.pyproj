@@ -46,7 +46,7 @@
     <Content Include="LICENSE" />
     <Content Include="pyproject.toml" />
     <Content Include="README.md" />
-    <Content Include="src\vocabtrainer\english2.txt" />
+    <Content Include="src\vocabtrainer\english_test.txt" />
     <Content Include="src\vocabtrainer\english.txt" />
     <Content Include="src\vocabtrainer\latein.txt" />
     <Content Include="requirements.txt" />
