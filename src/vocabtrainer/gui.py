@@ -13,6 +13,8 @@ class gui(object):
         self.translation = None
         self.cnter_correct = 0
         self.cnter_incorrect = 0
+        self.file_eng = 'english.txt'
+        self.file_lat = 'latein.txt'
 
         self.read_translation_files()
         self.shown_word, self.translation = random.choice(list(self.vocab_eng.items()))
@@ -33,10 +35,10 @@ class gui(object):
 
     def read_lang(self, lang):
         if lang == 'lat':
-            with open(os.path.join(os.getcwd(), 'src', 'vocabtrainer', 'latein.txt'), 'r') as fh:
+            with open(os.path.join(os.getcwd(), 'src', 'vocabtrainer', self.file_lat), 'r') as fh:
                 content = fh.readlines()
         if lang == 'eng':
-            with open(os.path.join(os.getcwd(), 'src', 'vocabtrainer', 'english.txt'), 'r') as fh:
+            with open(os.path.join(os.getcwd(), 'src', 'vocabtrainer', self.file_eng), 'r') as fh:
                 content = fh.readlines()
         for line in content:
             # just to be able to use comments
