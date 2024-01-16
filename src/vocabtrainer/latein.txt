@@ -1,2 +1,51 @@
-equus ; Pferd
-hortum ; Garten
+amare ; lieben , mögen , moegen
+respondere ; antworten
+iterum ; wieder
+conspicere ; erblicken
+fugere ; fliehen
+capere ; fangen
+puer ; Junge
+puella ; Mädchen, Maedchen
+itaque ; deshalb
+sunt ; sie sind
+culina ; Küche, Kueche
+debere ; müssen , muessen
+cupere ; wollen, wünschen, wuenschen
+adhuc ; noch , bis jetzt
+liberi ; Kinder
+vir ; Mann
+otium ; Freizeit
+parentes ; Eltern
+officium ; Pflichten
+explere ; erfüllen, erfuellen
+Salvete! ; Seid gegrüßt, Seid gegrueßt, seid gegruesst, seid gegrüsst
+dicere ; sagen
+statím ; sofort
+incipere ; anfangen, beginnen
+Cur? ; Warum
+semper ; immer
+placere ; gefallen
+labor ; Arbeit
+pergere ; weiter machen
+nam ; nämlich, naemlich, dann
+hodie ; heute
+familia ; Familie
+expectare ; erwarten
+subito ; plötzlich, ploetzlich
+clamor ; Geschrei
+audire ; hoeren, hören
+rogare ; fragen
+quid ; was
+quaerire ; suchen
+videre ; sehen
+sed ; aber
+ubi ; wo
+ecce ; schau, sieh an
+intrare ; eintreten
+tum ; dahin, da, darauf
+ibi ; dort
+nunc ; jetzt, nun
+etiam ; auch, sogar
+ridere ; lachen
+botellum ; Würstchen, Wuerstchen, Wurst
+tenere ; hält, haelt
