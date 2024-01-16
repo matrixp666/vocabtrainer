@@ -207,3 +207,21 @@ when ; wenn
 already ; schon
 (to) add ; ergänzen, ergaenzen
 chips ; Pommes frites
+(to) practise ; üben , ueben, trainieren
+spelling ; Rechtschreibung
+(to) need ; brauchen , benötigen, benoetigen
+place ; Ort , Stelle, Platz
+first ; erste , erster, erstes
+(to) learn ; lernen
+to play a trick ; einen Streich spielen
+(to) work ; arbeiten
+presentation ; Präsentation, Praesentation, Vortrag
+poem ; Gedicht
+voice ; Stimme
+popular ; beliebt, populär, polulaer
+joke ; Witz
+time ; Zeit
+(to) know ; wissen , kennen
+it's your turn ; Du bist dran
+(to) give ; geben, schenken
+(to) think ; denken, nachdenken
