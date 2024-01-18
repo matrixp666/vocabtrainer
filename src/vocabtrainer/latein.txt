@@ -22,17 +22,17 @@ Salvete! ; Seid gegrüßt, Seid gegrueßt, seid gegruesst, seid gegrüsst
 dicere ; sagen
 statím ; sofort
 incipere ; anfangen, beginnen
-Cur? ; Warum
+Cur? ; warum
 semper ; immer
 placere ; gefallen
-labor ; Arbeit
+labor ; arbeit
 pergere ; weiter machen
 nam ; nämlich, naemlich, dann
 hodie ; heute
-familia ; Familie
+familia ; familie
 expectare ; erwarten
 subito ; plötzlich, ploetzlich
-clamor ; Geschrei
+clamor ; geschrei
 audire ; hoeren, hören
 rogare ; fragen
 quid ; was
@@ -47,5 +47,5 @@ ibi ; dort
 nunc ; jetzt, nun
 etiam ; auch, sogar
 ridere ; lachen
-botellum ; Würstchen, Wuerstchen, Wurst
+botellum ; würstchen, wuerstchen, wurst
 tenere ; hält, haelt

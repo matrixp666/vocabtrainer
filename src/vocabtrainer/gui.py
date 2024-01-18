@@ -22,7 +22,7 @@ class gui(object):
             [sg.Radio('English', 'lang', key = '-ENG-', enable_events = True, default = True), sg.Radio('Latein', 'lang', key = '-LAT-', enable_events = True, default = False)],
             [sg.Text('Uebersetze folgendes Wort nach Deutsch: ', key = '-LANG_TEXT-'), sg.Text(text = self.shown_word, size = (15,1), key = '-OUTPUT-')],
             [sg.Input(key = '-IN-')],
-            [sg.Button('Check', enable_events = True, key = '-CHECK-'), sg.Button('Exit')],
+            [sg.Button('Check', enable_events = True, key = '-CHECK-'), sg.Button('Exit'), sg.Text('', key='-HINT-')],
             [sg.HorizontalSeparator()],
             [sg.Text('Anzahl richtiger und falscher Antworten:')],
             [sg.Text('Richtige:'), sg.Text(key='-CORRECT-')],
@@ -89,16 +89,20 @@ class gui(object):
 
     def cb_check(self, values):
         input_string = values['-IN-'].lower()
+        print(input_string, self.translation)
         if input_string in self.translation and values['-IN-'] != '':
             self.cnter_correct += 1
             self.window['-CORRECT-'].update(self.cnter_correct)
             self.window['-IN-'].update('')
-        elif values['-IN-'] == '':
+            self.window['-HINT-'].update('')
+        elif input_string == '':
             self.cnter_incorrect += 1
             self.window['-INCORRECT-'].update(self.cnter_incorrect)
         else:
             self.cnter_incorrect += 1
+            self.window['-HINT-'].update('{0} ins deutsche uebersetzt: {1}!'.format(self.shown_word, self.translation[0] if len(self.translation) >= 1 else [thing for thing in self.translation]))
             self.window['-INCORRECT-'].update(self.cnter_incorrect)
+            self.window['-IN-'].update('')
         if values['-ENG-'] == True:
             self.shown_word, self.translation = random.choice(list(self.vocab_eng.items()))
         if values['-LAT-'] == True:

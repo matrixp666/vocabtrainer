@@ -1,195 +1,195 @@
 (to) swim ; schwimmen
-doctor ; Doktor
-car ; Auto
-plane ; Flugzeug
-at home ; zu Hause
-family ; Familie
+doctor ; doktor
+car ; auto
+plane ; flugzeug
+at home ; zu hause
+family ; familie
 (to) live ; leben
-flat ; Wohnung
-in the street ; in der Straße
-house ; Haus
-door ; Tür
-tv ; Fernseher
-chair ; Stuhl
-table ; Tisch
-shower ; Dusche
-bath ; Badewanne
-toilet ; Toilette, WC
-bed ; Bett
-clock ; Uhr
-wardrobe ; Kleiderschrank
-cupboard ; Küchenschrank, Kuechenschrank
-shelf ; Regal
-cooker ; Herd, Ofen
-living room ; Wohnzimmer
-bedroom ; Schlafzimmer
-kitchen ; Küche, Kueche
-bathroom ; Badezimmer, Bad
+flat ; wohnung
+in the street ; in der straße, in der strasse
+house ; haus
+door ; tür, tuer
+tv ; fernseher
+chair ; stuhl
+table ; tisch
+shower ; dusche
+bath ; badewanne
+toilet ; toilette, wc
+bed ; bett
+clock ; uhr
+wardrobe ; kleiderschrank, garderobe
+cupboard ; küchenschrank, kuechenschrank
+shelf ; regal
+cooker ; herd, ofen
+living room ; wohnzimmer
+bedroom ; schlafzimmer
+kitchen ; küche, kueche
+bathroom ; badezimmer, bad
 good ; gut
-biscuit ; Keks
+biscuit ; keks
 under ; unter
 (to) help ; helfen
 (to) collect ; sammeln
 new ; neu
 small ; klein
-sister ; Schwester
+sister ; schwester
 little ; klein
-brother ; Bruder
-father ; Vater, Papa
-mother ; Mutter, Mama
-cousin ; Cousin
+brother ; bruder
+father ; vater, papa
+mother ; mutter, mama
+cousin ; cousin
 an ; ein, eine
-only child ; Einzelkind
-dad ; Papa, Vater
+only child ; einzelkind
+dad ; papa, vater
 she is ; sie ist
 isn't ; ist nicht
 always ; immer
 easy ; einfach
 he is ; er ist
-mum ; Mama, Mutter
-uncle ; Onkel
-aunt ; Tante
-granddad ; Opa, Grossvater, Großvater
-grandma ; Oma, Grossmutterm Großmutter
-familytree ; Stammbaum
+mum ; mama, mutter
+uncle ; onkel
+aunt ; tante
+granddad ; ppa, grossvater, großvater
+grandma ; oma, grossmutterm großmutter
+familytree ; stammbaum
 tell me about ; erzähle mir von, erzahle mir von
 quiet ; leise
-guinea pig ; Meerschweinchen, Meerschwein
-language ; Sprache
+guinea pig ; meerschweinchen, meerschwein
+language ; sprache
 only ; nur
 wrong ; falsch
-thanks ; Danke
+thanks ; danke
 very ; sehr
 some ; einige, wenige
 of ; von
 say hello ; grüßen, gruessen, grueßen
 to ; zu
-problem ; Problem
+problem ; problem
 there is ; da sind
 there ; dort
-garden ; Garten
+garden ; garten
 behind ; hinter
-Mr. ; Herr
-Mrs. ; Frau
+Mr. ; herr
+Mrs. ; frau
 now ; jetzt
-everywhere ; überall
+everywhere ; überall, ueberall
 again ; wieder
-floor ; Fußboden, Fussboden
+floor ; fußboden, fussboden
 next to ; neben
 in front of ; vor
 (to) listen ; zuhören, zuhoeren
-idea ; Idee
-loft ; Dachboden
+idea ; idee
+loft ; dachboden
 own ; eigene
 from...to <Wort> ... <Wort>; von ... bis
-answer ; Antwort
-wall ; Wand
-fridge ; Kühlschrank, Kuehlschrank
-address ; Adresse
+answer ; antwort
+wall ; wand
+fridge ; kühlschrank, kuehlschrank
+address ; adresse
 it's ; sein
 or ; oder
 more ; mehr
-fantasy ; Fantasie
+fantasy ; fantasie
 (to) draw ; zeichnen
-help ; Hilfe
-step ; Stufe
+help ; hilfe
+step ; stufe
 there is ; es gibt
 there are ; da sind
-Here you can see ; Hier kannst Du sehen
+Here you can see ; hier kannst du sehen
 this is ; das ist
-my favourite room is ; Mein Lieblingszimmer ist
+my favourite room is ; mein lieblingszimmer ist
 on the left ; links
 on the right ; rechts
 at the top ; oben
 at the bottom ; unten
-in the middle ; in der Mitte
-in the corner ; in der Ecke
-guitar ; Gitarre
-stage ; Bühne, Buehne
-cable car ; Gondel, Seilbahn, Gondelbahn
-fire place ; Kamin
+in the middle ; in der mitte
+in the corner ; in der ecke
+guitar ; gitarre
+stage ; bühne, buehne
+cable car ; gondel, seilbahn, gondelbahn
+fire place ; kamin
 busy ; beschäftigt, beschaeftigt
-model ; Modell
-who .. for ; Für wen, Fuer wen
+model ; modell
+who .. for ; für wen, fuer wen
 who ; wer
 (to) explore ; erkunden
 best ; bester, beste
-bag ; Tasche
+bag ; tasche
 maybe ; vielleicht
 after ; nach
 (to) visit ; besuchen
 outside ; draußen, draussen
 awful ; schrecklich
-don't worry ; keine Sorge
-sentence ; Satz
+don't worry ; keine sorge
+sentence ; satz
 right ; richtig
-ending ; Ende
-rule ; Regel
-planner ; Kalender
-lunch ; Mittagessen, Mittag
-cafeteria ; Cafeteria
-money ; Geld
-mashine ; Maschine
+ending ; ende
+rule ; regel
+planner ; kalender
+lunch ; mittagessen, mittag
+cafeteria ; cafeteria
+money ; geld
+mashine ; maschine
 (to) pay ; bezahlen
-finger ; Finger
+finger ; finger
 (to) buy ; kaufen
-sweets ; Süßigkeiten, Sueßigkeiten, Suessigkeiten
-shop ; Laden
-pen ; Füller, Fueller
-pencil ; Stift
-pencil case ; Federmappe
-exercise book ; Übungsheft, Uebungsheft
-ruler ; Lineal
-rubber ; Radiergummi
-uniform ; Uniform
-art ; Kunstunterricht, Kunst
-recording studio ; Tonstudio, Aufnahmestudio
-tutor ; Klassenlehrer
-classroom ; Klassenraum
-classmate ; Mitschüler, Mitschueler
+sweets ; süßigkeiten, sueßigkeiten, suessigkeiten
+shop ; laden
+pen ; füller, fueller
+pencil ; stift
+pencil case ; federmappe
+exercise book ; übungsheft, uebungsheft
+ruler ; lineal
+rubber ; radiergummi
+uniform ; uniform
+art ; kunstunterricht, kunst
+recording studio ; tonstudio, aufnahmestudio
+tutor ; klassenlehrer
+classroom ; klassenraum
+classmate ; mitschüler, mitschueler
 (to) have got ; besitzen
-question ; Frage
-test ; Test
+question ; frage
+test ; test
 today ; heute
-schoolbag ; Schultasche, Ranzen
-tutorgroup ; Klasse
-good morning ; Guten Morgen
+schoolbag ; schultasche, ranzen
+tutorgroup ; klasse
+good morning ; guten morgen
 everyone ; jeder
-student ; Schüler, Schueler, Student
+student ; schüler, schueler, student
 (to) call ; nennen, anrufen, rufen
 him ; ihm
 no ; kein
-i like singing and dancing ; Ich singe und tanze gerne
+i like singing and dancing ; ich singe und tanze gerne
 (to) sing ; singen
 (to) dance ; tanzen
-project ; Projekt
+project ; projekt
 well ; tja
 something ; etwas
-wait and see ; Wart ab
-teacher ; Lehrer
-group ; Gruppe
-lots of ; jede Menge
-office ; Büro, Buero
-job ; Arbeit
-grandparents ; Großeltern
-talent show ; Talentwettbewerb
+wait and see ; wart ab
+teacher ; lehrer
+group ; gruppe
+lots of ; jede menge
+office ; büro, buero
+job ; arbeit
+grandparents ; großeltern, grosseltern
+talent show ; talentwettbewerb
 (to) send ; senden
-food ; Essen
-carrot ; Möhre, Moehre
-pudding ; Pudding
-restaurant ; Restaurant
-pocket money ; Taschengeld
+food ; essen
+carrot ; möhre, moehre
+pudding ; pudding
+restaurant ; restaurant
+pocket money ; taschengeld
 (to) use ; benutzen
 here you are ; bitte schön, bitte schoen
 be polite ; sei höflich, sei hoeflich
-lesson ; Schulstunde
-building ; Gebäude, Gebaeude
-German students are lucky ; Deutsche Schüler haben Glück, Deutsche Schueler haben Glück, Deutsche Schüler haben Glueck, Deutsche Schueler haben Glueck
+lesson ; schulstunde
+building ; gebäude, gebaeude
+German students are lucky ; deutsche schüler haben glück, deutsche schueler haben glück, deutsche schüler haben glueck, deutsche schueler haben glueck
 (to) stare ; starren
 rude ; unhöflich, unhoeflich
 funny ; lustig
 (to) sit ; sitzen
-lunch break ; Mittagspause
+lunch break ; mittagspause
 them ; ihnen
 (to) forget ; vergessen
 (to) do ; machen
@@ -201,27 +201,27 @@ alone ; allein
 (to) be ; sein
 (to) wear ; anhaben
 (to) run ; rennen
-homework ; Hausaufgaben
+homework ; hausaufgaben
 (to) look at ; anschauen, anblicken, ansehen
 when ; wenn
 already ; schon
 (to) add ; ergänzen, ergaenzen
-chips ; Pommes frites
+chips ; pommes frites, chips
 (to) practise ; üben , ueben, trainieren
-spelling ; Rechtschreibung
+spelling ; rechtschreibung
 (to) need ; brauchen , benötigen, benoetigen
-place ; Ort , Stelle, Platz
+place ; ort , stelle, platz
 first ; erste , erster, erstes
 (to) learn ; lernen
-to play a trick ; einen Streich spielen
+to play a trick ; einen streich spielen
 (to) work ; arbeiten
-presentation ; Präsentation, Praesentation, Vortrag
-poem ; Gedicht
-voice ; Stimme
+presentation ; präsentation, praesentation, vortrag
+poem ; gedicht
+voice ; stimme
 popular ; beliebt, populär, polulaer
-joke ; Witz
-time ; Zeit
+joke ; witz
+time ; zeit
 (to) know ; wissen , kennen
-it's your turn ; Du bist dran
+it's your turn ; du bist dran
 (to) give ; geben, schenken
 (to) think ; denken, nachdenken
