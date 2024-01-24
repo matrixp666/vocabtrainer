@@ -4,11 +4,11 @@ iterum ; wieder
 conspicere ; erblicken
 fugere ; fliehen
 capere ; fangen
-puer ; Junge
-puella ; Mädchen, Maedchen
+puer ; junge
+puella ; mädchen, maedchen
 itaque ; deshalb
 sunt ; sie sind
-culina ; Küche, Kueche
+culina ; küche, kueche
 debere ; müssen , muessen
 cupere ; wollen, wünschen, wuenschen
 adhuc ; noch , bis jetzt
